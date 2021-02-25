@@ -1,0 +1,13 @@
+language: java
+
+jdk:
+  - openjdk8
+  - openjdk11
+  - openjdk15
+
+arch:
+  - amd64
+  - ppc64le
+
+script:
+  - mvn -V --no-transfer-progress
