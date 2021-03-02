@@ -8,4 +8,4 @@ arch:
 
 install: skip
 
-script: mvn clean install
+script: travis_wait mvn clean install
